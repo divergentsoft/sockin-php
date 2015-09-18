@@ -1,0 +1,23 @@
+{
+  "name": "divergentsoft/sockin-php",
+  "description": "PHP library for using Sockin push notifications",
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "DivergentSoft Technology Group",
+      "email": "info@divergentsoft.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sockin\\" : "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
